@@ -1,12 +1,19 @@
+<h1>JavaScript Logic Path</h1>
 This project was made for our JSGuild DC web page.
 To see it in action (when it's done) see --
 
-jsguild-dc.github.io
+<a href="jsguild-dc.github.io">JSGuild-DC</a>
 
-<h1>Purpose:</h1>
-1. To serve content specific to the users choice
-2. Learn how to do logic paths using solely JavaScript
-3. Have fun #bruh
+<h2>Purpose:</h2>
+<ol>
+  <li>To serve content specific to the users choice.</li>
+  <li>Learn how to do logic paths using solely JavaScript.</li>
+  <li>Have fun #bruh.</li>
+</ol>
 
-contributors:
-Ben, Kaitlynn & Victor
+<h2>Contributors:</h2>
+  <ul>
+    <li>Ben</li>
+    <li>Kaitlynn</li>
+    <li>Victor</li>
+  </ul>
