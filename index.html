@@ -2,27 +2,24 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>JSGuild DC</title>
+    <title>Logic Path Widget</title>
+    <link rel="stylesheet" href="normalize.css"/>
     <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
 
-    <button class="js-logic-btn" id="js-logic-path-current-member">Guild Member</button>
-    <button class="js-logic-btn" id="js-logic-path-future-member">Wannabe Guild Member</button>
-    <button class="js-logic-btn" id="js-logic-path-employer">Employer</button>
-    <button class="js-logic-btn" id="js-logic-path-other">Other</button>
+    <button class="logic-btn" id="js-logic-path-current-member">Guild Member</button>
+    <button class="logic-btn" id="js-logic-path-future-member">New Member</button>
+    <button class="logic-btn" id="js-logic-path-employer">Employer</button>
+    <button class="logic-btn" id="js-logic-path-other">Other</button>
 
-    <div id="js-user">
 
-    </div>
+    <!--These elements and their content are dependent on users interaction with the btns above & JS-->
 
-    <div id="js-content">
+    <h1  id="js-user"    class="user-header"></h1>
+    <p   id="js-content" class="user-content"></p>
+    <div id="js-form"    class="user-form"></div>
 
-    </div>
-
-    <div id="js-form">
-
-    </div>
 
 <script src="main.js"></script>
 </body>
